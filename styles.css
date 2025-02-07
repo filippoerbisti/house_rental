@@ -1,0 +1,25 @@
+/* Custom Styles */
+body {
+    padding-top: 56px; /* Offset for fixed navbar */
+  }
+  
+  .hero-section {
+    padding: 100px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
